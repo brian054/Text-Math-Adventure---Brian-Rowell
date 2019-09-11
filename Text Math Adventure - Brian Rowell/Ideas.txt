@@ -1,0 +1,78 @@
+Story
+You are -Your Name-. You have been banished to another universe by the evil Proof God named Brian.
+The goal of this game is to find your way through to defeat Brian, the proof god. You will encounter 
+many new and unexpected places, only your math skills will help you destroy the ultimate proof god.
+
+----------------------------------------
+Locations:
+
+	Types:
+		- Towns
+		- Forests, Dungeons, etc.
+		- Hot spots (casino)
+
+		Towns:
+			- Trig Town
+			- Turing Town
+			- Riemann Town
+			- Pascal Town
+		Forests:
+			- Fourier Forest
+			- Coefficient Forest
+			- Fiddy Bet Forest
+			- Babbage Forest
+		Hot Spots:
+			- Integral Island
+			- Calculus Casino
+
+---------------------------------------
+Combat System:
+
+- Attack: With math (random attack within a range)
+- Run: Flee only against monsters
+- Item: Potion, special ability, etc.
+
+---------------------------------------
+Monsters:
+	Skeletons
+	Zombies
+	Reapers
+	Tanner Willis Proof Orc
+	Magikarp
+	....
+---------------------------------------
+Bosses:
+	- Professor Terry: Precal God
+	- Professor Paullin: Calc 1 God
+	- Professor Khenner: Calc 2 God
+	- Professor Harris: Calc 3 God
+	- Final Boss-Brian: Proof God
+---------------------------------------
+Items:
+	- Bag (inventory, can buy bigger bag)
+	- Potions (random fill up, not always a high amount)
+	- Weapons
+	- Armor
+	- Fishing Pole (who doesn't love fishing)
+
+----------------------------------------
+XP and Leveling System:
+
+----------------------------------------
+Plot:
+
+Prologue:
+You start in a cave. Barely alive, the only weapon
+you have is a stick. You come up on an enemy, you fight 
+that enemy to get introduced to the combat mechanics.
+Once you defeat that enemy a man comes and saves you,
+he heard all the ruckus from you fighting a skeleton.
+He takes you back to his house where he asks for your name.
+
+-----------------------------------------
+ToDo:
+
+- User input
+- Commands
+- Menu Screen
+
