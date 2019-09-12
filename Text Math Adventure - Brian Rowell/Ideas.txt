@@ -63,7 +63,7 @@ Plot:
 
 Prologue:
 You start in a cave. Barely alive, the only weapon
-you have is a stick. You come up on an enemy, you fight 
+you have is a pen and printer paper. You come up on an enemy, you fight 
 that enemy to get introduced to the combat mechanics.
 Once you defeat that enemy a man comes and saves you,
 he heard all the ruckus from you fighting a skeleton.
@@ -72,6 +72,7 @@ He takes you back to his house where he asks for your name.
 -----------------------------------------
 ToDo:
 
+- Literally everything
 - User input
 - Commands
 - Menu Screen
