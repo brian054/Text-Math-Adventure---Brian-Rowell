@@ -5,44 +5,64 @@ using namespace std;
 //Different types of combat based on location?
 //One combat function that takes in a location to decide what enemies should appear?
 
-bool combatCave() {
-	cout << "Magikarp Appears!" << endl;
-	return false;
+enum state {
+	MAIN_MENU, OPTIONS, HELP, NEWGAME
+};
+
+string inputString(string display) {
+	string s;
+	cout << display << " : ";
+	cin >> s;
+	return s;
 }
 
 int main() {
-	
-	string NAME;
-	int cmd = 0;
-	//Main Menu
-	cout << "-----------------------------------" << endl;
-	cout << "---------- The Proof God  ---------" << endl;
-	cout << "-----------------------------------" << endl;
-	cout << "--- 1. New Game          ----------" << endl;
-	cout << "--- 2. Options           ----------" << endl;
-	cout << "--- 3. Help              ----------" << endl;
-	cout << "-----------------------------------" << endl;
+	state s = MAIN_MENU;
 
-	cout << "\nWhat would you like to do: ";
-	cin >> cmd;
+	while (true) {
+		switch (s) {
+		case MAIN_MENU: {
+			//Main Menu
+			cout << "-----------------------------------" << endl;
+			cout << "---------- The Proof God  ---------" << endl;
+			cout << "-----------------------------------" << endl;
+			cout << "--- 1. (N)ew Game         ---------" << endl;
+			cout << "--- 2. (O)ptions          ---------" << endl;
+			cout << "--- 3. (H)elp             ---------" << endl;
+			cout << "-----------------------------------" << endl;
 
-	//Problem: if you enter anything but a real number, infinite loop occurs
-	while (cmd != 1 && cmd != 2 && cmd != 3) {
-		if (cmd == 1) {
-			cout << "1";
+			char state;
+			do {
+				cout << "\nWhat would you like to do?" << endl;
+				char state = cin.get();
+			} while (state != 'N' && state != 'O' && state != 'H');
+
+			if (state == 'N') {
+				s = NEWGAME;
+			}
+			else if (state == 'O') {
+				s = OPTIONS;
+			}
+			else if (state == 'H') {
+				s = HELP;
+			}
+			break;
 		}
-		else if (cmd == 2) {
-			cout << "2";
+		case OPTIONS: {
+			cout << "There are literally no options bro.." << endl;
+			break;
 		}
-		else if (cmd == 3) {
-			cout << "3";
+		case HELP: {
+			break;
 		}
-		else {
-			cout << "Nah pick 1, 2, or 3: ";
-			cin >> cmd;
+		case NEWGAME: {
+			break;
+		}
+
 		}
 	}
-	
+
+	string NAME;
 	/*
 	cout << "You awaken, you are in a small pool of water in a dark cave...." << endl;
 	cout << "\"Where am I?.....\"" << endl;
